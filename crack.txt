@@ -1,0 +1,5 @@
+function MessageBoxA("user32.dll");
+function ExitProcess("kernel32.dll");
+
+MessageBoxA(0,"This computer has been hacked by Ame!","AMEssage",0);
+ExitProcess(0);
